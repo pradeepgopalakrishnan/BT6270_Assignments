@@ -1,0 +1,4 @@
+The HHmodel_solution.m takes the current as a command line argument. The snippet of code to count valid peaks according to the threshold has been added to the preexisting model implementation. HHmodel_solution.m can be called as "octave HHmodel_solution.m 0.4".
+The script run.sh executes the HHmodel_solution.m with a sequence of current values as set. Can be run as "./run.sh". The output of run.sh can be redirected to a file data.txt using "./run.sh > data.txt". 
+data.txt contains current and average frequency in consecutive lines for mulitple instances of injected current values.
+The python snippet takes in the data.txt file from its working directory and returns the plot between I2 and I3.
